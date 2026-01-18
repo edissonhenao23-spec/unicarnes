@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UNICARNES | Carnicería</title>
+  <style>
+    body { margin:0; font-family:'Segoe UI',Arial,sans-serif; background:#f4f4f4; color:#333; }
+    header { background:#9b0000; color:#fff; padding:25px 20px; text-align:center; }
+    header h1 { margin:0; font-size:2.5rem; letter-spacing:2px; }
+    header p { margin:5px 0 0; }
+    nav { background:#700000; padding:12px; text-align:center; }
+    nav a { color:#fff; margin:0 12px; text-decoration:none; font-weight:600; }
+    nav a:hover { text-decoration:underline; }
+    .hero { background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)), url('https://images.unsplash.com/photo-1604908554028-5c2f3d3a1dbe'); background-size:cover; background-position:center; color:#fff; padding:90px 20px; text-align:center; }
+    .hero h2 { font-size:2.2rem; margin-bottom:10px; }
+    .btn { display:inline-block; background:#25D366; color:#fff; padding:14px 22px; border-radius:30px; text-decoration:none; font-weight:bold; margin-top:15px; }
+    .section { padding:50px 20px; max-width:1100px; margin:auto; }
+    .section h2 { text-align:center; color:#9b0000; margin-bottom:35px; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:22px; }
+    .card { background:#fff; padding:25px; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,.1); text-align:center; }
+    .gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:15px; }
+    .gallery img { width:100%; border-radius:12px; height:180px; object-fit:cover; }
+    table { width:100%; border-collapse:collapse; background:#fff; border-radius:12px; overflow:hidden; }
+    table th, table td { padding:14px; border-bottom:1px solid #ddd; text-align:left; }
+    table th { background:#9b0000; color:#fff; }
+    footer { background:#333; color:#fff; text-align:center; padding:25px; font-size:.9rem; }
+    .whatsapp-float { position:fixed; bottom:20px; right:20px; background:#25D366; color:#fff; width:60px; height:60px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:30px; text-decoration:none; box-shadow:0 4px 10px rgba(0,0,0,.3); }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>UNICARNES</h1>
+  <p>Variedad en cortes de cerdo • Calidad certificada</p>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#productos">Productos</a>
+  <a href="#galeria">Galería</a>
+  <a href="#precios">Precios</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero" id="inicio">
+  <h2>Carne fresca todos los días</h2>
+  <p>Atención de 8:00 a.m. a 8:00 p.m.</p>
+  <a class="btn" href="https://wa.me/573148355961" target="_blank">Pedir por WhatsApp</a>
+</section>
+
+<section class="section" id="productos">
+  <h2>Nuestros Productos</h2>
+  <div class="cards">
+    <div class="card"><h3>Cortes de Cerdo</h3><p>Costilla, chuleta, tocino, pierna y más.</p></div>
+    <div class="card"><h3>Calidad Certificada</h3><p>Productos frescos y seleccionados.</p></div>
+    <div class="card"><h3>Pedidos por WhatsApp</h3><p>Rápido, fácil y seguro.</p></div>
+  </div>
+</section>
+
+<section class="section" id="galeria">
+  <h2>Galería</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1606756790138-261d2b21cd75" />
+    <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307" />
+    <img src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f" />
+    <img src="https://images.unsplash.com/photo-1625944525533-473f1a3f2c0b" />
+  </div>
+</section>
+
+<section class="section" id="precios">
+  <h2>Precios de Referencia</h2>
+  <table>
+    <tr><th>Producto</th><th>Precio</th></tr>
+    <tr><td>Costilla de cerdo</td><td>$11.000 / libra</td></tr>
+    <tr><td>Chuleta de cerdo</td><td>$12.500 / libra</td></tr>
+  </table>
+</section>
+
+<section class="section" id="contacto">
+  <h2>Contacto</h2>
+  <p style="text-align:center;">
+    📍 Calle 62B Carrera 95A-72<br>
+    🕒 Horario: 8:00 a.m. – 8:00 p.m.<br>
+    📞 WhatsApp: +57 314 835 5961
+  </p>
+  <div style="max-width:100%; margin-top:20px;">
+    <iframe src="https://www.google.com/maps?q=Calle%2062B%20Carrera%2095A-72%20Medellin&output=embed" width="100%" height="300" style="border:0; border-radius:12px;" allowfullscreen></iframe>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 UNICARNES – Carnicería en Medellín</p>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/573148355961" target="_blank">💬</a>
+
+</body>
+</html>
